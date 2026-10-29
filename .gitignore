@@ -1,0 +1,10 @@
+# yerel araçlar ve sistem dosyaları
+.claude/
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# orijinal (telifli) look fotoğrafları bu depoya asla eklenmesin
+*.png
+!assets/brand/*.png
