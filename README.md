@@ -6,7 +6,7 @@ Bu klasör, `kiyafet-showroom` projesinin **yayına hazırlanmış kopyasıdır*
 
 ## Canlı site
 
-(Yayına alınca adres buraya eklenecek: `https://altayilmazz.github.io/alte-showroom/`)
+https://altayilmazz.github.io/alte-showroom/
 
 ## Ekran görüntüleri
 
@@ -22,7 +22,7 @@ Kendi fotoğraflarını kullanmak için şeffaf arka planlı görselleri aynı a
 
 ## Yayına alırken
 
-- `index.html` içindeki `og:image` ve `twitter:image` adreslerini sitenin tam adresiyle değiştir (örn. `https://siteadi.com/assets/brand/og.png`). Göreli adresle WhatsApp ve Instagram önizlemesi çıkmaz.
+- Paylaşım görseli adresleri (`og:image`, `twitter:image`, `og:url`) GitHub Pages adresine göre yazıldı; site başka bir adrese taşınırsa `index.html` içinde güncelle.
 - Klasörün tamamını Netlify, Vercel ya da GitHub Pages gibi bir statik barındırmaya yükle. `dev-server.js` yalnızca yerel geliştirme içindir, yayına gerekmez.
 
 ## Yerelde çalıştırma
